@@ -10,7 +10,7 @@ import orderRouter from './routes/orderRoute.js'
 
 // App Config
 const app = express()
-const port = process.env.PORT_URL
+const port = `https://cupid-frontend.onrender.com/place-order`
 connectDB()
 connectCloudinary()
 
